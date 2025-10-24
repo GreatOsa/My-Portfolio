@@ -6,7 +6,11 @@ export default function About() {
   return (
     <section id="about" className="about">
       <div className="about-container">
-        <img src="/assets/Osayande.jpg" alt="Profile" />
+        <img
+          src={`${import.meta.env.BASE_URL}assets/${"Osayande.jpg"}`}
+          //  src="/assets/Osayande.jpg"
+          alt="Profile"
+        />
 
         <div className="info-box">
           <div className="text">

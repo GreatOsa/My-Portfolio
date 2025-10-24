@@ -7,7 +7,11 @@ export default function Project() {
 
       <div className="projects-grid">
         <div className="project-card">
-          <img src="/assets/hotel.png" alt="" />
+          <img
+            src={`${import.meta.env.BASE_URL}assets/${"hotel.png"}`}
+            // src="/assets/hotel.png"
+            alt=""
+          />
           <h3>Hostel Website</h3>
           <p>
             The hotel website was crafted to capture the feeling of comfort,
@@ -23,7 +27,10 @@ export default function Project() {
           </div>
         </div>
         <div className="project-card">
-          <img src="/assets/robot.PNG" alt="" />
+          <img
+            src={`${import.meta.env.BASE_URL}assets/${"robot.PNG"}`}
+            alt=""
+          />
           <h3>Ufactory-xarm-uf850-Robot</h3>
           <p>
             This project focused on configuring and calibrating the UFactory

@@ -246,6 +246,7 @@ section {
   border-radius: 3rem;
   padding: 3rem;
   display: flex;
+  gap: 5px;
   flex-direction: column;
   align-items: baseline;
   justify-content: left;
@@ -267,9 +268,10 @@ section {
 .grid-card span {
   font-size: 1.2rem;
   font-weight: 500;
-  background: var(--accent-gradient);
-  background-clip: text;
-  color: transparent;
+  /* background: var(--accent-gradient); */
+  /* background-clip: text; */
+  /* color: transparent; */
+  color: var(--color-secondary);
 }
 
 ::-webkit-scrollbar {

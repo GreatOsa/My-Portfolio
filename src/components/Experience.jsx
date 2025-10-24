@@ -1,5 +1,6 @@
 import React from "react";
 import { BsLaptop } from "react-icons/bs";
+import { FaChartArea } from "react-icons/fa";
 
 export default function Experience() {
   return (
@@ -19,7 +20,7 @@ export default function Experience() {
             </p>
           </div>
           <div className="grid-card">
-            <BsLaptop className="icon" />
+            <FaChartArea className="icon" />
             <span>Marketing Specialist</span>
             <h3>1 Year</h3>
             <p>
@@ -34,7 +35,10 @@ export default function Experience() {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
           </div> */}
         </div>
-        <img src="/assets/Osayande.jpg" alt="" />
+        <img
+          src={`${import.meta.env.BASE_URL}assets/${"Osayande.jpg"}`}
+          alt=""
+        />
       </div>
     </section>
   );
